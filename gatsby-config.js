@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "my first gatyby site",
+    title: "My first gatsby site",
   },
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "UA-XXXXXXXX-X",
       },
     },
     "gatsby-plugin-react-helmet",
