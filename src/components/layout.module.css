@@ -1,6 +1,8 @@
 .container {
-    margin: auto;
-    max-width: 500px;
+    /* margin: auto; */
+    width: 100%;
+    /* max-width: 800px; */
+    height: 100vh;
     font-family: sans-serif;
   }
   
@@ -13,7 +15,7 @@
     padding-left: 0;
   }
   .nav-link-item {
-    padding-right: 2rem;
+    padding-right: 5rem;
   }
   .nav-link-text {
     color: black;
@@ -25,4 +27,16 @@
     color: gray;
     font-weight: 700;
     margin: 3rem 0;
+  }
+  .heading{
+    border: 2px solid red;
+  }
+  main{
+    border: 2px solid green;
+
+
+  }
+  nav{
+    border: 2px solid black;
+
   }
