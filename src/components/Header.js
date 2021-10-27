@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // import { StaticImage } from "gatsby-plugin-image";
 // import image1 from "../images/mt2.jpeg";
@@ -10,12 +10,11 @@ import image4 from "../images/swamiji.jpeg";
 import Navbar from "./Navbar";
 
 function Header() {
-    // let [isHovering, setIsHovering]= useState(false);
   return (
     <div className="container-fluid h-100 w-100 border border-danger">
             <header>
                 {/* <nav className="navbar navbar-expand-lg navbar-light bg-white"> */}
-                <marquee className='h-1' style={{}}> Hello how are you </marquee>
+                {/* <marquee className='h-1' style={{}}> Hello how are you </marquee> */}
                 {/* </nav> */}
 
                 <div className="row p-1 text-center bg-light borde h-15">
@@ -102,7 +101,7 @@ function Header() {
             <div className="card">
                 {/* <img src="https://media.istockphoto.com/photos/silhouette-of-businessman-holding-target-board-on-the-top-of-mountain-picture-id1283030328?b=1&k=20&m=1283030328&s=170667a&w=0&h=1kBZ-lbo_Y10Q56oj2kAoOnjQ-duvyRUXDxSLKX7A2A=" className="card-img-top" alt="..."/> */}
                 <div className="card-body">
-                <h5 className="card-title text-center">Objective</h5>
+                <h5 className="card-title text-center">Objectiv</h5>
                 <p className="card-text">
                 We aim to provide quality education with highest academic standards .Our objective is to create an environment that will ensure that our student will develop well rounded personalities and grow into successful human beings and not just remain successful students.</p>
                 </div>
