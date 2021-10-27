@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
 // import image1 from "../images/mt2.jpeg";
 // import image2 from "../images/mt7.jpeg";
 // import image3 from "../images/mt6.jpg";
@@ -14,9 +14,9 @@ function Header() {
   return (
     <div className="container-fluid h-100 w-100 border border-danger">
             <header>
-                <nav className="navbar navbar-expand-lg navbar-light bg-white">
-                <marquee> Hello how are you </marquee>
-                </nav>
+                {/* <nav className="navbar navbar-expand-lg navbar-light bg-white"> */}
+                <marquee className='h-1' style={{}}> Hello how are you </marquee>
+                {/* </nav> */}
 
                 <div className="row p-1 text-center bg-light borde h-15">
                 <div className="col-1 border">
@@ -38,7 +38,7 @@ function Header() {
 
                 {/* phots gallery section */}
 
-            <div id="carouselExampleIndicators" class="container h-50 carousel slide overflow-hidden pt-3" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="container-fluid h-50 carousel slide overflow-hidden pt-3" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -102,9 +102,9 @@ function Header() {
             <div className="card">
                 {/* <img src="https://media.istockphoto.com/photos/silhouette-of-businessman-holding-target-board-on-the-top-of-mountain-picture-id1283030328?b=1&k=20&m=1283030328&s=170667a&w=0&h=1kBZ-lbo_Y10Q56oj2kAoOnjQ-duvyRUXDxSLKX7A2A=" className="card-img-top" alt="..."/> */}
                 <div className="card-body">
-                <h5 className="card-title text-center">Objectives</h5>
+                <h5 className="card-title text-center">Objective</h5>
                 <p className="card-text">
-We aim to provide quality education with highest academic standards .Our objective is to create an environment that will ensure that our student will develop well rounded personalities and grow into successful human beings and not just remain successful students.</p>
+                We aim to provide quality education with highest academic standards .Our objective is to create an environment that will ensure that our student will develop well rounded personalities and grow into successful human beings and not just remain successful students.</p>
                 </div>
                 {/* <div className="card-footer">
                 <small className="text-muted">Last updated 3 mins ago</small>
