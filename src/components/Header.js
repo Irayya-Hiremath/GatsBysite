@@ -102,7 +102,7 @@ function Header() {
             <div className="card">
                 {/* <img src="https://media.istockphoto.com/photos/silhouette-of-businessman-holding-target-board-on-the-top-of-mountain-picture-id1283030328?b=1&k=20&m=1283030328&s=170667a&w=0&h=1kBZ-lbo_Y10Q56oj2kAoOnjQ-duvyRUXDxSLKX7A2A=" className="card-img-top" alt="..."/> */}
                 <div className="card-body">
-                <h5 className="card-title text-center">Objective</h5>
+                <h5 className="card-title text-center">Objectives</h5>
                 <p className="card-text">
 We aim to provide quality education with highest academic standards .Our objective is to create an environment that will ensure that our student will develop well rounded personalities and grow into successful human beings and not just remain successful students.</p>
                 </div>
